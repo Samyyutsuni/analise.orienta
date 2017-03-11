@@ -1,0 +1,13 @@
+Levantamento de Requisitos - Medidas Protetivas
+06/12/16
+
+1- Objetivo gerenciar medidas(nº ofício, data de expedição, data do fato, data cadastrada, local onde ocorreu o fato) protetivas, e réus e vítimas .
+
+2- Cadastrar réus e vítimas (nome, sexo, idade, endereço, telefone, cpf, medidas ).
+ 
+3- Buscar (nome: réu || vítima) medida protetiva.
+
+4-  Listar medidas protetiva.
+
+5- Gráficos: mapa de criminalidade, baseados na estáticas por bairro.
+

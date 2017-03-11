@@ -1,0 +1,36 @@
+1-O modelo de dados de alto-nível é utilizado para que, partindo da análise sobre os requisitos de uma base de dados e sobre o mini-mundo que se quer representar, possamos criar uma representação conceitual da base de uma maneira padronizada, que descarte detalhes de armazenamento de dados, fazendo com que o projetista se concentre na modelagem conceitual. Por abstrair tais detalhes e devido à linguagem de fácil entendimento, um modelo de alto-nível facilita o diálogo entre o projetista e o conhecedor do domínio.
+
+2-Existem atributos que não são aplicáveis para todas as tuplas em uma relação. Por exemplo: se tivermos um campo complemento, utilizado para guardar o complemento de um endereço em uma relação, caso a pessoa more em uma casa, este campo não fará sentido e, portanto, será preenchido com null.
+
+3-Entidade:
+Definimos entidade como aquilo que constitui a existência de algo real; essência, descrevemos entaocomo um objeto com uma existência física 
+ou pode ser um objeto com uma existência conceitual. ta. 
+
+Atributo: são as particularidades, qualidades e características que são próprias de uma entidade que se descreve.
+
+Valor de atributo: 
+Valor de atributo é o valor que cada uma das entidades, em particular, terá para o atributo em questão. 
+
+Instância de relacionamento: 
+Uma instância de relacionamento é uma associação entre entidades, que inclui exatamente uma entidade de cada tipo de entidade participante. 
+
+Atributo composto:
+Atributo composto é um atributo composto por outros atributos mais básicos. Ele contém atributos simples ou ainda atributos compostos, formando assim uma hierarquia de atributos.
+
+Atributo univalorado:
+Atributo univalorado ou monovalorado é aquele que pode ter apenas um único valor. 
+
+Atributo multivalorado:
+Atributo multivalorado é aquele que aceita um conjunto de valores. 
+
+Atributo derivado; 
+Atributo derivado é aquele que pode ser calculado através dos valores de outros atributos, por meio de uma consulta. Portanto, não precisam ser armazenados no banco de dados.
+
+Atributo-chave:
+Atributo-chave é um atributo que identifica univocamente uma tupla devido ao fato de seus valores serem distintos para cada entidade.
+
+4-Um tipo de entidade é uma definição de um conjunto de entidades que tem os mesmos atributos. Em outras palavras, um tipo de entidade descreve um esquema para um conjunto de entidades que compartilham a mesma estrutura. Não é aplicável falar em valor de atributo para um tipo de entidade. 
+
+5-Um tipo de relacionamento R entre n tipos de entidades (E1, E1, ..., En) é um conjunto de associações entre entidades destes tipos, isto é, é um conjunto de relacionamentos ri , onde cada relacionamento associa n entidades (e1, e2, ..., en) e cada entidade ej em ri é um membro do tipo de entidade Ej , com 1 = j = n. Enquanto um relacionamento associa entidades existentes, um tipo de relacionamento é um conjunto de relacionamentos e, portanto, não associa entidades diretamente.
+
+6-A indicação de papéis torna-se necessária quando uma entidade participa mais de uma vez em um relacionamento, isto é, quando se tem um relacionamento recursivo. Neste caso, os papéis devem ser utilizados a fim de distinguir o significado de cada participação.
